@@ -4,6 +4,7 @@
 /.idea/
 /target/
 /.git/*
+/logs/
 
 ## Files
 *.log
@@ -17,7 +18,6 @@
 *.ttf
 *.woff
 *.woff2
-*.eot
 *.png
 *.lock
 *.sync
