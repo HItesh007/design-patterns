@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Singleton Pattern - Thread Safe Suite" verbose="1" parallel="tests">
+    <test name="Singleton - Thread Safe Test #1">
+        <classes>
+            <class name="com.projects.designpatterns.creational.singleton.DBSingletonThreadSafeTests"/>
+            <!--<class name="com.projects.designpatterns.creational.singleton.DBSingletonTests"/>-->
+        </classes>
+    </test>
+    <test name="Singleton - Thread Safe Test #2">
+        <classes>
+            <class name="com.projects.designpatterns.creational.singleton.DBSingletonThreadSafeTests"/>
+            <!--<class name="com.projects.designpatterns.creational.singleton.DBSingletonTests"/>-->
+        </classes>
+    </test>
+    <test name="Singleton - Thread Safe Test #3">
+        <classes>
+            <class name="com.projects.designpatterns.creational.singleton.DBSingletonThreadSafeTests"/>
+            <!--<class name="com.projects.designpatterns.creational.singleton.DBSingletonTests"/>-->
+        </classes>
+    </test>
+</suite>
