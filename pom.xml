@@ -28,6 +28,7 @@
         <assertj.core.version>3.19.0</assertj.core.version>
         <testng.version>7.4.0</testng.version>
         <jackson.core.version>2.12.1</jackson.core.version>
+        <apache.math.commons.version>3.6.1</apache.math.commons.version>
     </properties>
 
     <dependencies>
@@ -130,6 +131,14 @@
             <version>${testng.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>${apache.math.commons.version}</version>
+        </dependency>
+
 
     </dependencies>
 </project>
