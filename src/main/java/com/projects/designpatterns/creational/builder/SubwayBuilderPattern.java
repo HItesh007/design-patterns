@@ -6,6 +6,12 @@ import org.apache.commons.math3.util.Precision;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Hitesh Prajapati
+ * @version 1.0
+ * @implNote This class demonstrates the implementation of Builder pattern using static {@link Builder} class inside or main class.
+ * This {@link Builder} class can be either created inside of the same class statically or can be created as a separate class file as well.
+ */
 public class SubwayBuilderPattern {
     private final Menu selectedMenu;
     private final int subQuantity;
