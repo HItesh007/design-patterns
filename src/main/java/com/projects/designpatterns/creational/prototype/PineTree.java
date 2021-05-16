@@ -2,7 +2,7 @@ package com.projects.designpatterns.creational.prototype;
 
 public class PineTree extends Tree {
 
-    private String type;
+    private final String type;
 
     public PineTree(double mass, double height) {
         super(mass, height);

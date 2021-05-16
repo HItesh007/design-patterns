@@ -2,7 +2,7 @@ package com.projects.designpatterns.creational.prototype;
 
 public class PlasticTree extends Tree {
 
-    private String name;
+    private final String name;
 
     public PlasticTree(double mass, double height) {
         super(mass, height);
