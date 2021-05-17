@@ -1,6 +1,5 @@
 package com.projects.designpatterns.creational.abstractFactory;
 
-import com.projects.designpatterns.creational.abstractFactory.*;
 import com.projects.designpatterns.creational.enums.ShapeType;
 import com.projects.designpatterns.creational.factory.*;
 import org.testng.annotations.Test;
