@@ -1,4 +1,4 @@
-package com.projects.designpatterns.creational;
+package com.projects.designpatterns.creational.abstractFactory;
 
 import com.projects.designpatterns.creational.abstractFactory.*;
 import com.projects.designpatterns.creational.enums.ShapeType;
